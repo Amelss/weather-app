@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Weather App</title>
+</head>
+<body class="flex justify-center items-center h-screen font-montserrat bg-[url('/public/images/weather-hero.jpg')] bg-cover bg-no-repeat md:bg-[url('/public/images/desktop-hero.jpg')]">
+
+        <div class="card bg-slate-200 px-5 py-7 rounded-lg  w-max bg-opacity-50 md:bg-opacity-80">
+            <div class="search flex items-center justify-center">
+                <input type="text" class="search-bar border border-gray-300 rounded-full pl-3 pr-14 py-1" placeholder="Search City...">
+                <button class="ml-1 bg-gray-200 bg-opacity-20 px-2 py-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 30 30" width="20px" height="20px"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"/></svg></button>
+            </div>
+            <div class="weather mt-2 ">
+                <h2 class="city text-3xl mb-5 ">Weather in London</h2>
+                <div class="temp mb-5 text-2xl">15°C</div>
+                <img src="" alt="" class="icon">
+                <div class="description">Cloudy</div>
+                <div class="humidity">Humidity: 50%</div>
+                <div class="wind">Wind Speed 3.4mph</div>
+            </div>
+        </div>
+
+
+    <script src="/src/script.js"></script>
+</body>
+</html>
